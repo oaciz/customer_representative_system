@@ -1,0 +1,84 @@
+body {
+    background: url('https://images.pexels.com/photos/7709085/pexels-photo-7709085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .online-users-section {
+    margin-bottom: 20px;
+  }
+  
+  .users-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .call-button, .answer-button, .reject-button, .end-call-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .call-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .answer-button { background-color: #4CAF50; }
+  .reject-button { background-color: #FF3B3B; }
+  .end-call-button { background-color: #FF5733; }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .video-box {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
